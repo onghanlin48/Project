@@ -1,0 +1,81 @@
+.body {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.popular {
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+.popular hr {
+  border: 2px solid;
+}
+.navco{
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  background-color: #333;
+}
+
+.navco li {
+  float: left;
+}
+
+.navco li a,
+.dropbtnco {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navco li a:hover,
+.dropdownco:hover .dropbtn {
+  background-color: red;
+}
+
+.navco li.dropdownco {
+  display: inline-block;
+}
+.dropdown-contentco {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-contentco a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-contentco a:hover {
+  background-color: black;
+}
+
+.dropdownco:hover .dropdown-contentco {
+  display: block;
+}
+
+.lr-10 {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.t-20 {
+  margin-top: 20px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

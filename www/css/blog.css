@@ -1,0 +1,33 @@
+.blog-t{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px;
+}
+
+.blog-t th, td {
+    border-collapse: collapse;
+    padding: 15px;
+  }
+.blog-t th{
+    font-size: 30px;
+    text-align: center;
+}
+
+.blog-t img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.blog-t p{
+    text-align: justify;
+}
+
+.a p{
+    list-style-type: square;
+  }
+
+
+
